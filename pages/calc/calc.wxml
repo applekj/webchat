@@ -1,0 +1,27 @@
+<!--pages/calc.wxml-->
+<view class='content'>
+  <view class='header'>{{screenData}}</view>
+  <view class='body' bindtap="clickBtn">
+    <view id='{{idc}}'>C</view>
+    <view id='{{idb}}'>←</view>
+    <view catchtap="toHistory">
+      <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"/>
+    </view>
+    <view id='{{idadd}}'>+</view>
+    <view class='blue' id='{{id9}}'>9</view>
+    <view class='blue' id='{{id8}}'>8</view>
+    <view class='blue' id='{{id7}}'>7</view>
+    <view id='{{idj}}'>-</view>
+    <view class='blue' id='{{id6}}'>6</view>
+    <view class='blue' id='{{id5}}'>5</view>
+    <view class='blue' id='{{id4}}'>4</view>
+    <view id='{{idx}}'>×</view>
+    <view class='blue' id='{{id3}}'>3</view>
+    <view class='blue' id='{{id2}}'>2</view>
+    <view class='blue' id='{{id1}}'>1</view>
+    <view id='{{iddiv}}'>÷</view>
+    <view class='num0 blue' id='{{id0}}'>0</view>
+    <view class='blue' id='{{idd}}'>.</view>
+    <view id='{{ide}}'>=</view>
+  </view>
+</view>

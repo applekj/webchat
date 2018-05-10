@@ -1,0 +1,5 @@
+<!--pages/history/history.wxml-->
+<view wx:for="{{logs}}" wx:for-item="log" wx:key="index" class='content'>
+  <view class="item" wx:key='index'>{{log}}</view>
+</view>
+

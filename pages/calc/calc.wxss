@@ -1,0 +1,43 @@
+/* pages/calc.wxss */
+.header {
+  min-height: 260rpx;
+  line-height: 260rpx;
+  padding: 0 10rpx;
+  background-color: #999;
+  width: 100%;
+  text-align: right;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 120rpx;
+}
+
+.body {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.body{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.body .blue {
+  background-color: #0095cd;
+}
+
+.body view{
+  background-color: #f78d1d;
+  width: 186rpx;
+  text-align: center;
+  height: 186rpx;
+  line-height: 186rpx;
+  color: white;
+  box-sizing: border-box;
+  border-top: 1rpx solid #fff;
+}
+
+.body .num0{
+  width: 374rpx;
+}

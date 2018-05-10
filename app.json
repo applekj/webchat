@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calc/calc",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#da7c0c",
+    "navigationBarTitleText": "我的简历",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#717171",
+    "selectedColor": "#ff7a7a",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/calc/calc",
+        "text": "计算器"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ]
+  }
+}
