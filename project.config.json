@@ -33,7 +33,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -43,8 +43,20 @@
 				},
 				{
 					"id": -1,
-					"name": "history",
-					"pathName": "pages/history/history",
+					"name": "baiside",
+					"pathName": "pages/baiside/baiside",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "pages/video/video",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "image",
+					"pathName": "pages/image/image",
 					"query": ""
 				}
 			]

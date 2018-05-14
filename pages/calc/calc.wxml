@@ -2,7 +2,7 @@
 <view class='content'>
   <view class='header'>{{screenData}}</view>
   <view class='body' bindtap="clickBtn">
-    <view id='{{idc}}'>C</view>
+    <view id='{{idc}}' style='background-color:{{backgroundcolor}}'>C</view>
     <view id='{{idb}}'>←</view>
     <view catchtap="toHistory">
       <icon type="{{iconType}}" color="{{iconColor}}" class="icon" size="25"/>

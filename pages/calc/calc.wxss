@@ -38,6 +38,10 @@
   border-top: 1rpx solid #fff;
 }
 
+.body view:active {
+    background-color: #ff0000;
+}
+
 .body .num0{
   width: 374rpx;
 }

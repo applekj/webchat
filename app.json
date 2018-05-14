@@ -3,7 +3,11 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/calc/calc",
-    "pages/history/history"
+    "pages/history/history",
+    "pages/word/word",
+    "pages/video/video",
+    "pages/image/image",
+    "pages/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,7 +20,7 @@
     "selectedColor": "#ff7a7a",
     "borderStyle": "white",
     "backgroundColor": "#ffffff",
-    "position":"bottom",
+    "position": "bottom",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -27,8 +31,16 @@
         "text": "计算器"
       },
       {
-        "pagePath": "pages/history/history",
-        "text": "历史"
+        "pagePath": "pages/word/word",
+        "text": "段子"
+      },
+      {
+        "pagePath": "pages/image/image",
+        "text": "图片"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频"
       }
     ]
   }

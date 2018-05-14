@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#da7c0c",
+  "navigationBarTitleText": "视频",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+}

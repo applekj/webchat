@@ -27,7 +27,7 @@ Page({
     operaSymbo: { "＋": "+", "－": "-", "×": "*", "÷": "/", ".": "." },
     iconType: 'waiting_circle',
     iconColor: 'white',
-    logs: [],
+    logs: []
   },
 
   /**
@@ -117,7 +117,6 @@ Page({
   clickBtn:function(e){
     //按钮的值
     let value = e.target.id;
-    
     //屏幕上的值
     let screenData = this.data.screenData;
     //屏幕上的值回退一位之后的值
@@ -170,7 +169,7 @@ Page({
     }
   },
   toHistory:function(e){
-    wx.switchTab({
+    wx.navigateTo({
       url: '../history/history',
     });
   }
